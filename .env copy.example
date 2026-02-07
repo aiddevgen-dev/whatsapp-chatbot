@@ -1,0 +1,34 @@
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# MongoDB
+MONGODB_URI=mongodb+srv://alirazarao6528_db_user:A67ce07SCuaMw4Vv@vtiger.yhtpf2t.mongodb.net
+
+# Whapi.Cloud WhatsApp API (Easiest Setup!)
+# Get from: https://panel.whapi.cloud
+# 1. Sign up at https://panel.whapi.cloud
+# 2. Create a channel and connect your WhatsApp number (QR code scan)
+# 3. Get your API token from channel settings
+WHAPI_API_TOKEN=your_whapi_api_token_here
+WHAPI_BASE_URL=https://gate.whapi.cloud
+
+# Groq API
+# Get from: https://console.groq.com
+GROQ_API_KEY=your_groq_api_key_here
+GROQ_MODEL=llama-3.3-70b-versatile
+GROQ_WHISPER_MODEL=whisper-large-v3-turbo
+
+# Payment Configuration (EasyPaisa)
+EASYPAISA_ACCOUNT_NAME=Your Business Name
+EASYPAISA_ACCOUNT_NUMBER=03XXXXXXXXX
+EASYPAISA_QR_CODE_URL=https://your-domain.com/qr-code.jpg
+
+# File Storage
+STORAGE_PATH=./storage
+MAX_MEDIA_SIZE_MB=15
+
+# Business Configuration
+BUSINESS_NAME=Your Business Name
+SUPPORT_PHONE=+923XXXXXXXXX
+CONFIRMATION_WAIT_HOURS=1-3
